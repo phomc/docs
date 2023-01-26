@@ -54,6 +54,12 @@ const config = {
             label: 'Tensai',
           },
           {
+            type: 'doc',
+            docId: 'multipacks/intro',
+            position: 'left',
+            label: 'Multipacks',
+          },
+          {
             href: 'https://github.com/phomc',
             label: 'GitHub',
             position: 'right',
