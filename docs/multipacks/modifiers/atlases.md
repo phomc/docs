@@ -131,7 +131,7 @@ my_texture.png, 4x4:
 [#000000][#000001][#000001][#000000]
 ```
 
-The atlas source will creates a new ``my_texture_suffix`` sprite (assuming you have ``permutations.suffix``), which looks like this:
+The atlas source will create a new ``my_texture_suffix`` sprite (assuming you have ``permutations.suffix``), which looks like this:
 
 ```
 my_texture_suffix.png, 4x4:

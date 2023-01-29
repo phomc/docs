@@ -2,7 +2,7 @@
 ## Prerequisites
 - Multipacks CLI (see [Getting Multipacks](./getting-multipacks) for more infomation)
 - Plain text editor
-  + You can use any plain text editor that can edits ``.txt`` files, such as Windows Notepad, ``vim`` or Visual Studio Code. Rich text editors like WordPad might not works with Multipacks.
+  + You can use any plain text editor that can edit ``.txt`` files, such as Windows Notepad, ``vim`` or Visual Studio Code. Rich text editors like WordPad might not works with Multipacks.
 
 ## Creating pack folder
 Create a folder that stores all your files related to your pack. We'll name the folder ``hello-multipacks``, but you can choose any name you want.
