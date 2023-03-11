@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkphomc_docs=self.webpackChunkphomc_docs||[]).push([[6159],{7960:e=>{e.exports=JSON.parse('{"title":"Packs","slug":"/category/packs","permalink":"/category/packs","navigation":{"previous":{"title":"Slices","permalink":"/multipacks/modifiers/slices"},"next":{"title":"Index File","permalink":"/multipacks/packs/index-file"}}}')}}]);

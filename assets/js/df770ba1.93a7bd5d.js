@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkphomc_docs=self.webpackChunkphomc_docs||[]).push([[443],{9216:e=>{e.exports=JSON.parse('{"title":"For Players","slug":"/category/for-players","permalink":"/category/for-players","navigation":{"previous":{"title":"Introduction","permalink":"/tensai/intro"},"next":{"title":"Introduction","permalink":"/tensai/player/intro"}}}')}}]);
