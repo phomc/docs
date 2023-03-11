@@ -44,6 +44,8 @@ Tunnel is for pickaxe and shovel.
 Tunnel is **not compatible** with digger and silk touch.
 :::
 
+<hr />
+
 # Rare
 
 ### 1. Digger

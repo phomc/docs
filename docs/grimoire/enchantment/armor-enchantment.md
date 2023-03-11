@@ -42,10 +42,6 @@ Chance formula: `(level + 1) * 0.05`
 | 2     | 15%    |
 | 3     | 20%    |
 
-:::info
-The execution seems to be slow but remember it happens every second!
-:::
-
 ### 2. Refill
 If the health is below a certain critical level, food will be consumed automatically and instantly! The food is chosen by order, and food with effects will be skipped (except enchanted golden apple)
 
