@@ -60,6 +60,12 @@ const config = {
             label: 'Multipacks',
           },
           {
+            type: 'doc',
+            docId: 'grimoire/intro',
+            position: 'left',
+            label: 'Grimoire',
+          },
+          {
             href: 'https://github.com/phomc',
             label: 'GitHub',
             position: 'right',
