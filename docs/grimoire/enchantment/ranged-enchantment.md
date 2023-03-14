@@ -15,9 +15,9 @@ For any successful attempt, the item durability reduces by 3.
 
 | Level | Chance | Radius |
 |-------|--------|--------|
-| 1     | 50%    | 1.5    |
-| 2     | 60%    | 2      |
-| 3     | 70%    | 2.5    |
+| 1     | 50%    | 1.0    |
+| 2     | 60%    | 1.5    |
+| 3     | 70%    | 2.0    |
 
 :::warning
 Explosive is **not compatible** with multishot.

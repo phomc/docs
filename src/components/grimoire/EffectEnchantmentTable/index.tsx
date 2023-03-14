@@ -7,15 +7,15 @@ type EffectLevel = {
 };
 
 const EnchantmentList: Map<string, EffectLevel> = new Map<string, EffectLevel>();
-EnchantmentList.set("proactive|grimoire:wither", { effect: "Wither", params: [0.1,0,50,0.2,1,50,0.25,2,50,0.3,3,80,0.35,4,100] })
-EnchantmentList.set("proactive|grimoire:poison", { effect: "Poison", params: [0.1,0,50,0.2,1,50,0.25,2,50,0.3,3,80,0.35,4,100] })
-EnchantmentList.set("proactive|grimoire:nausea", { effect: "Nausea", params: [0.1,0,30,0.2,1,60,0.25,1,100] })
-EnchantmentList.set("proactive|grimoire:frozen", { effect: "Slowness", params: [0.1,0,40,0.2,1,60,0.2,2,80,0.2,3,120,0.3,4,120,0.3,5,150] })
-EnchantmentList.set("proactive|grimoire:blindness", { effect: "Blindness", params: [0.15,0,60,0.3,0,60] })
-EnchantmentList.set("proactive|grimoire:levitation", { effect: "Levitation", params: [0.1,0,60,0.2,1,100,0.2,1,150] })
-EnchantmentList.set("passive|grimoire:decay", { effect: "Wither", params: [0.1,0,60,0.1,1,80,0.2,1,120] })
-EnchantmentList.set("passive|grimoire:petrified", { effect: "Slowness", params: [0.1,0,60,0.15,1,60,0.15,1,80,0.2,2,80] })
-EnchantmentList.set("passive|grimoire:venom", { effect: "Poison", params: [0.15,0,60,0.2,1,60,0.2,1,80,0.2,2,100] })
+EnchantmentList.set("proactive|grimoire:wither", { effect: "Wither", params: [0.2,0,60,0.3,1,80,0.4,2,80,0.5,3,100,0.5,4,100] })
+EnchantmentList.set("proactive|grimoire:poison", { effect: "Poison", params: [0.2,0,60,0.3,1,60,0.4,2,80,0.4,3,100,0.5,4,100] })
+EnchantmentList.set("proactive|grimoire:nausea", { effect: "Nausea", params: [0.2,0,60,0.3,1,80,0.4,1,100] })
+EnchantmentList.set("proactive|grimoire:frozen", { effect: "Slowness", params: [0.2,0,40,0.2,1,60,0.3,2,80,0.3,3,120,0.4,4,120] })
+EnchantmentList.set("proactive|grimoire:blindness", { effect: "Blindness", params: [0.15,0,60,0.3,0,100] })
+EnchantmentList.set("proactive|grimoire:levitation", { effect: "Levitation", params: [0.2,0,60,0.2,1,100,0.35,1,150] })
+EnchantmentList.set("passive|grimoire:decay", { effect: "Wither", params: [0.3,1,80,0.4,2,80,0.5,3,100,0.6,4,120] })
+EnchantmentList.set("passive|grimoire:petrified", { effect: "Slowness", params: [0.2,1,60,0.3,2,80,0.3,3,120,0.4,4,120,0.5,5,150] })
+EnchantmentList.set("passive|grimoire:venom", { effect: "Poison", params: [0.3,1,60,0.4,2,80,0.4,3,100,0.5,4,100] })
 
 function EnchantmentEntry({index, data}): JSX.Element {
     const chance = data.params[index * 3];
