@@ -46,7 +46,7 @@ Tunnel is **not compatible** with digger and silk touch.
 
 <hr />
 
-# Rare
+# Very Rare
 
 ### 1. Digger
 Digs a 3x3 area at once. Durability reduction is calculated per additional block.<br/>

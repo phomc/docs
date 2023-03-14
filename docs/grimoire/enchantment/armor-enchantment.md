@@ -12,9 +12,7 @@ Armor enchantment is exclusive to armor.
 ### 1. Aftershock
 Damage nearby mobs in the radius of 5x5 when taking fall damage.<br/>
 The damage dealt to surroundings is based on the following formula:<br/>
-`aftershock damage = fall damage * coefficient`<br/>
-For any successful trigger, the durability cost is:<br/>
-`cost = floor(aftershock damage / 4) # Amount of damaged mobs does not matter`
+`aftershock damage = fall damage * coefficient`
 
 | Level | Coefficient |
 |-------|-------------|
@@ -22,6 +20,8 @@ For any successful trigger, the durability cost is:<br/>
 | 2     | 50%         |
 | 3     | 75%         |
 | 4     | 100-125%    |
+
+For any successful trigger, the durability cost equals to `aftershock damage / 4`, rounded down to the nearest integer. Amount of damaged mobs does not matter.
 
 :::caution
 Aftershock is for boots only.
@@ -33,8 +33,7 @@ Aftershock is for boots only.
 
 ### 1. Antidote
 Every second, there is a chance to degrade a random harmful effects. Degradation will reduce the effect amplifier by 1. For any successful attempt, the item durability will reduce by 1.<br/>
-For level 2 and 3, it also removes neutral effects such as bad omen and glowing.<br/>
-Chance formula: `(level + 1) * 0.05`
+For level 2 and 3, it also removes neutral effects such as bad omen and glowing.
 
 | Level | Chance |
 |-------|--------|

@@ -17,12 +17,15 @@ Proactive effect enchantments are also attack enchantment.
 
 ### 1. Thunder
 Has a chance to strike lightning on target:
-  - For ranged weapon: `20% * level`
-  - For melee weapon: `10% * level`
+
+| Level | Chance (Ranged) | Chance (Melee) |
+|-------|-----------------|----------------|
+| 1     | 30%             | 25%            |
+| 2     | 60%             | 50%            |
 
 In addition, there is 20% chance that the lightning is visual-only (no damage)<br/>
 Allies to the lightning's caster are protected from damage.<br/>
-For any successful striking, the item durability reduces by 3.
+For any successful striking, the item durability reduces by 2.
 
 :::warning
 Thunder is **not compatible** with channeling.

@@ -17,12 +17,12 @@ Change a sheep's color on every attack.
 # Rare
 
 ### 1. Vampire
-When the health is below 50%, there is a chance to transfer damage dealt to the target into health. For any successful attempt, the item durability reduces by 3.
+When the health is below 50%, there is a chance to transfer damage dealt to the target into health. For any successful attempt, the item durability reduces by 1.
 
 | Level | Chance | Transfer Rate |
 |-------|--------|---------------|
-| 1     | 20%    | 10%           |
-| 2     | 25%    | 15%           |
-| 3     | 30%    | 20%           |
-| 4     | 30%    | 30%           |
-| 5     | 30%    | 40%           |
+| 1     | 30%    | 40%           |
+| 2     | 35%    | 50%           |
+| 3     | 40%    | 60%           |
+| 4     | 45%    | 70%           |
+| 5     | 50%    | 80%           |
