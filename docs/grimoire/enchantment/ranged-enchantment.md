@@ -43,7 +43,7 @@ Rift is a powerful enchantment but costly. Only use it to escape in critical sit
 :::
 
 :::warning
-Rift is **not compatible** with infinity, multishot, riptide and exchange.
+Rift is **not compatible** with infinity, multishot, riptide, exchange and telekinesis.
 :::
 
 ### 2. Exchange
@@ -64,5 +64,25 @@ Exchange is a powerful enchantment but costly, let use it wisely!
 :::
 
 :::warning
-Exchange is **not compatible** with infinity, multishot, riptide and rift.
+Exchange is **not compatible** with infinity, multishot, riptide, rift and telekinesis.
+:::
+
+### 3. Telekinesis
+Moves victim to the shooter. The durability cost uses Rift's as reference.
+
+| Level | Coefficient |
+|-------|-------------|
+| 1     | 0.8         |
+| 2     | 0.6         |
+| 3     | 0.4         |
+| 4     | 0.2         |
+
+The projectile is discarded once reaching the victim, so using Exchange does not damage any entity.
+
+:::tip
+Telekinesis is a powerful enchantment but costly, let use it wisely!
+:::
+
+:::warning
+Telekinesis is **not compatible** with infinity, riptide, exchange and rift.
 :::
