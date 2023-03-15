@@ -63,10 +63,6 @@ Allows teleporting to the target position. The durability cost is based on the s
 | 3     | 0.4         |
 | 4     | 0.2         |
 
-:::tip
-Rift is a powerful enchantment but costly. Only use it to escape in critical situations.
-:::
-
 :::warning
 Rift is **not compatible** with infinity, multishot, riptide, exchange, telekinesis and arrow rain.
 :::
@@ -84,10 +80,6 @@ Exchange position of the shooter and the victim. The durability cost uses Rift's
 
 The projectile is discarded once reaching the victim, so using Exchange does not damage any entity.
 
-:::tip
-Exchange is a powerful enchantment but costly, let use it wisely!
-:::
-
 :::warning
 Exchange is **not compatible** with infinity, multishot, riptide, rift, telekinesis and arrow rain.
 :::
@@ -102,11 +94,7 @@ Moves victim to the shooter. The durability cost uses Rift's as reference.
 | 3     | 0.4         |
 | 4     | 0.2         |
 
-The projectile is discarded once reaching the victim, so using Exchange does not damage any entity.
-
-:::tip
-Telekinesis is a powerful enchantment but costly, let use it wisely!
-:::
+The projectile is discarded once reaching the victim, so using Telekinesis does not damage any entity.
 
 :::warning
 Telekinesis is **not compatible** with infinity, riptide, exchange and rift.
