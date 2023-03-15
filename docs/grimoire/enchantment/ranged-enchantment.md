@@ -23,6 +23,31 @@ For any successful attempt, the item durability reduces by 3.
 Explosive is **not compatible** with multishot.
 :::
 
+### 2. Arrow Rain
+Able to shoot multiple arrows at once. Additional arrows have the following properties:
+- Its power is always 1.0
+- Its damage equals to the first arrow's damage multiplied by `damage percentage`
+- Knock-back and fire ability is inherited from the first arrow
+- Can be crit arrow if the first arrow is crit and the enchantment is maximized
+- Can not be pickup
+
+| Level | Damage Percentage |
+|-------|-------------------|
+| 1     | 70%               |
+| 2     | 80%               |
+| 3     | 90%               |
+| 4     | 100%              |
+
+The number of additional arrows is `level * 2`, which is also the durability cost of the item. Arrows are arranged in circular facing the position where player is looking at.
+
+:::caution
+Arrow Rain is for bow only.
+:::
+
+:::warning
+Arrow Rain is **not compatible** with rift and exchange.
+:::
+
 <hr/>
 
 # Very Rare
@@ -43,7 +68,7 @@ Rift is a powerful enchantment but costly. Only use it to escape in critical sit
 :::
 
 :::warning
-Rift is **not compatible** with infinity, multishot, riptide, exchange and telekinesis.
+Rift is **not compatible** with infinity, multishot, riptide, exchange, telekinesis and arrow rain.
 :::
 
 ### 2. Exchange
@@ -64,7 +89,7 @@ Exchange is a powerful enchantment but costly, let use it wisely!
 :::
 
 :::warning
-Exchange is **not compatible** with infinity, multishot, riptide, rift and telekinesis.
+Exchange is **not compatible** with infinity, multishot, riptide, rift, telekinesis and arrow rain.
 :::
 
 ### 3. Telekinesis
