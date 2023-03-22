@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkphomc_docs=self.webpackChunkphomc_docs||[]).push([[6995],{498:e=>{e.exports=JSON.parse('{"title":"Items","slug":"/category/items","permalink":"/category/items","navigation":{"previous":{"title":"Tool enchantment","permalink":"/grimoire/enchantment/tool-enchantment"},"next":{"title":"Quill","permalink":"/grimoire/items/quill"}}}')}}]);
